@@ -1,0 +1,138 @@
+ .navi>.navbar{
+    background-color: #5d4037 !important;
+}
+ .navi .nav-link{
+    color: white !important;
+    font-weight:bold !important;
+}
+.fa-shopping-cart,.fa-user-circle{
+    font-size: 32px !important;
+    color: white;
+}
+.nav-item:hover{
+    background-color: yellow;
+    border-radius: 50px;
+    color:#5d4037 !important ;
+}
+.dropdown-item:hover{
+    background-color: yellow;
+    
+}
+
+
+
+
+.navi2 .nav-link{
+    color: black !important;
+    font-weight:bold !important;
+}
+.fa-truck,.fa-headphones,.fa-thumbs-up{
+    font-size: 50px !important;
+    margin-right:10px ;
+    color: #5d4037 !important;
+}
+.card1,.card2,.card3{
+    display: flex;
+    width:300px ;
+    height: 100px;
+    background-color: white;
+    box-shadow:2px 4px 5px gray ;
+    justify-content: center;
+    align-items: center;
+    margin-top:10px ;
+}
+.mainCard{
+    margin-top:30px ;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+h3{
+    color: #5d4037;
+}
+@media screen and (max-width:600px){
+    .card1,.card2,.card3{
+        width:100% ;
+    }
+}
+.newArrivals{
+    margin-top: 50px;
+}
+.card{
+    width:250px ;
+    height:auto !important ;
+    margin-bottom:5px ;
+
+}
+.card-text{
+    font-weight: bold;
+}
+.btn-primary{
+    width: 100% !important;
+    background-color:#5d4037 ;
+}
+.new{
+    text-align: center;
+    font-weight: bold;
+    color:#5d4037 ;
+    margin:20px ;
+}
+.new > h1{
+    text-shadow: 2px 2px 4px gray;
+}
+.footer{
+    width:100% ;
+    background-color:#5d4037 ;
+    height:70px ;
+}
+.footer > div{
+    text-align: center;
+    margin-top: 20px;
+}
+h4{
+    color: white;
+}
+@media screen and (max-width:400px){
+    .card{
+        width:100% ;
+}
+}
+.row img:hover{
+    transform: scale(1.25);
+}
+.row img{
+    height:300px ;
+}
+.btn-primary:hover{
+    background-color: yellow;
+}
+.malepic img{
+    width:100% ;
+}
+.about{
+    width:90% ;
+    height:900px ;
+    background-color: white;
+    box-shadow:2px 4px 5px #5d4037;
+    overflow: auto;
+
+}
+.us{
+    text-align: center;
+}
+.detail{
+    margin:20px ;
+    text-align: justify;
+    color: #5d4037;
+    margin-left:50px ;
+    margin-right:50px ;
+}
+.main1{
+    text-align: center;
+    color:#5d4037 ;
+    margin-bottom:20px ;
+}
+.use{
+margin-left: 50px;
+}
